@@ -1,0 +1,87 @@
+/* 
+/* #main{
+    display: flex;
+    justify-content: center;
+} */
+
+/* 
+.container{
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+    background-color: grey;
+   
+    display: flex;
+    justify-content: center;
+
+}
+.button{
+    height: 90px;
+    width: 90px;
+ 
+    margin-top: 7px;
+    margin-left: 5px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.buttons{
+
+
+}
+.reset{
+    margin-top: 7px;
+}
+.all{
+    display: flex;
+    text-align: center;
+} */ 
+
+*{
+    background-color: #D4DCCD;
+}
+
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+  
+}
+.container{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+ 
+    border-radius: 7px;
+    /* display: flex;
+    justify-content: center; */
+    padding: 0px;
+}
+.button{
+    height: 90px;
+    /* width: 90px; */
+    width: calc((100% / 3) - 7px);
+    border:none;
+    margin-top: 7px;
+    margin-left: 5px;
+    border-radius: 10px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #fff;
+    cursor: pointer;
+    
+}
+.resetBtn{
+    margin-top: 7px;
+    cursor: pointer;
+    
+    
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
